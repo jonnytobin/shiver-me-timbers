@@ -2,7 +2,9 @@
 
 body {
 	background-color:#DCC5C5;
-	margin:0;
+	width:80%;
+	margin:0 auto 0 auto;
+	position:relative;
 }
 
 header {
@@ -10,3 +12,112 @@ header {
 	background-image:url(images/texture.png);
 }
 
+#logo {
+	margin:1% auto 1%;
+	width: 12%;
+	height: auto;
+}
+
+.test {
+	width:90%;
+	height:auto;	
+}
+
+a:link {
+    color:#DCC5C5;
+	text-shadow: 2px 2px #161212;
+	font-family:Impact;
+	/*font-size:4.5em;*/
+	text-decoration:none;
+	margin-left:3%;
+	font-size: 4.0vw;
+}
+
+a:visited {
+	color:#DCC5C5;
+	text-shadow: 2px 2px #161212;
+	font-family:Impact;
+	/*font-size:4.5em;*/
+	text-decoration:none;
+	margin-left:3%;
+	font-size: 4.0vw;	
+}
+
+a:hover {
+	color:#DCC5C5;
+	text-shadow: 2px 2px #161212;
+	font-family:Impact;
+	/*font-size:4.5em;*/
+	text-decoration:none;
+	margin-left:3%;
+	font-size: 4.0vw;	
+}
+
+nav {
+	width:50%;
+	position:absolute;
+	top:47%;
+	left:54%;	
+}
+
+#icons {
+	position:absolute;
+	top:4%;
+	left:86%;	
+}
+
+.icon {
+	width:24%;
+	height:auto;	
+}
+
+footer {
+	background-image:url(images/texture.png);	
+}
+
+.box {
+	width:25%;
+	height:200px;
+	background-color:#363434;	
+}
+
+table, th, td {
+    border: 1px solid black;
+	margin: 0 0 0 0;
+    
+}
+
+table {
+	width:85%;
+	margin:0 auto 0 auto;
+	/*border-spacing:10px;*/	
+}
+
+
+/*a:visited {
+    color:green;
+	font-family:Impact;
+}
+
+
+a:hover {
+    color:hotpink;
+	font-family:Impact;
+}
+
+
+a:active {
+    color:blue;
+	font-family:Impact;
+}*/
+	
+	
+	
+	/*nav ul {
+	list-style-type:none;	
+}
+
+ul li {
+	display:inline;	
+}
+*/
