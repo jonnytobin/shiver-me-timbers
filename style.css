@@ -1,5 +1,9 @@
 /* CSS Document */
 
+/*html {
+	background-image:url(images/texture.png);		
+}*/
+
 body {
 	background-color:#DCC5C5;
 	width:80%;
@@ -19,7 +23,7 @@ header {
 }
 
 .test {
-	width:90%;
+	width:100%;
 	height:auto;	
 }
 
@@ -31,6 +35,16 @@ a:link {
 	text-decoration:none;
 	margin-left:3%;
 	font-size: 4.0vw;
+}
+
+h2 {
+	color:#DCC5C5;
+	text-shadow: 2px 2px #161212;
+	font-family:Impact;
+	/*font-size:4.5em;*/
+	text-decoration:none;
+	margin-left:3%;
+	font-size: 4.0vw;	
 }
 
 a:visited {
@@ -56,13 +70,13 @@ a:hover {
 nav {
 	width:50%;
 	position:absolute;
-	top:47%;
+	top:8%;
 	left:54%;	
 }
 
 #icons {
 	position:absolute;
-	top:4%;
+	top:0;
 	left:86%;	
 }
 
@@ -82,15 +96,15 @@ footer {
 }
 
 table, th, td {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 	margin: 0 0 0 0;
-    
+    padding:5px;
 }
 
 table {
 	width:85%;
-	margin:0 auto 0 auto;
-	/*border-spacing:10px;*/	
+	margin:7% auto 7% auto;
+	border-spacing:10%;	
 }
 
 
